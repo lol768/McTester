@@ -25,7 +25,7 @@ McTester is implemented as a Junit `@Runner`. Behind the scenes, it manages thre
 
 * The main thread, where JUnit discovers and invokes tests
 * The server thread, where most of your test code will be running.
-* The client thread, where an internal Sponge plugin executes action requets from the McTester server plugin.
+* The client thread, where an internal Sponge plugin executes action requests from the McTester server plugin.
 
 [ExceptionTest](https://github.com/Aaron1011/McTester/blob/9573c60d87c41c1868ca5f2003ad20323a99ccd0/src/test/java/org/spongepowered/mctester/ExceptionTest.java) provides a simple example of a fully-functional McTester test.
 
